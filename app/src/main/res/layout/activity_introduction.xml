@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5EBFE"
+    android:orientation="vertical"
+    tools:context="com.priyanka.pycode.introduction">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_introduction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008AFB"
+        app:title="Introduction in Python"
+        app:titleTextColor="#fff">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/algorithm_flowchart_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:gravity="center"
+                android:text="Algorithm in Python" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="3dp">
+
+            </androidx.cardview.widget.CardView>
+
+
+            <Button
+                android:id="@+id/token_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Tokens in Python" />
+
+            <Button
+                android:id="@+id/datatype_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Data Type in Python" />
+
+
+            <Button
+                android:id="@+id/keyword_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:focusable="true"
+                android:textAllCaps="false"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Keywords in Python" />
+
+            <Button
+                android:id="@+id/variable_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Variable in Python" />
+
+            <Button
+                android:id="@+id/delimeter_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Delimeters in Python" />
+
+            <Button
+                android:id="@+id/indentation_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Indentation in Python" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3774908939242242/5917946717"></com.google.android.gms.ads.AdView>
+
+            <Button
+                android:id="@+id/typeconversion_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="center"
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:background="@drawable/b"
+                android:text="Type Conversion in Python" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

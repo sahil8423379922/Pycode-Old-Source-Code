@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#BBDAFD</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#F70000</color>
+    <color name="blue">#033E6F</color>
+
+    <!--Native add colour-->
+    <color name="ad_attribute_background_color">#ffa500</color>
+    <color name="ad_background_color">#fffff0</color>
+    <color name="ad_heading_color">#00008b</color>
+    <color name="ad_body_text_color">#696969</color>
+    <color name="ad_button_color">#6200EE</color>
+    <color name="ad_button_text_color">#ffffff</color>
+</resources>

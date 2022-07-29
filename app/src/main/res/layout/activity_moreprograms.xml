@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4F6FF"
+    tools:context="com.priyanka.pycode.moreprograms">
+
+
+    <LinearLayout
+        android:id="@+id/codebox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:text="Code Box"
+            android:textColor="#310000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/p1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Day of the week"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FF9800"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Calculator"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#9C27B0"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Temperature Conversion"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p4"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#E91E63"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Add Numbers"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p5"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:text="Convert to seconds"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p6"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FF9800"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Average Score Calculator"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/p7"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#F44336"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Number Reverser"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p8"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#4CAF50"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Currency Converter"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p9"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#673AB7"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Result Calculator"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p10"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Electricity Bill Calculator"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p11"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FF5722"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Leap Year Checker"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p12"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Reverse Number"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p13"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#009688"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Date and Time"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p14"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Solve Quadratic Equtaion"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p15"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#9C27B0"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Kilometer to Miles"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/p16"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#F44336"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Multiplication Table"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p17"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FF9800"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="HCF and GCD"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p18"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#673AB7"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="LCM"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p19"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#3F51B5"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Suffle Deck of Cards"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p20"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#FF9800"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Display Calender"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/p21"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:background="#F44336"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Find Resolution of Image"
+                    android:textColor="#fff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@+id/codebox"
+        android:id="@+id/title"
+        android:padding="15dp"
+        android:background="#E4F6FF"
+        android:textStyle="bold"
+        android:textColor="#031F35"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:text="Topic Wise Programs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/title"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="3dp">
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/basic_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:textColor="#031F35"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:text="Basic Programs"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+
+
+            <TextView
+                android:id="@+id/conditional_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="Condition Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+            <TextView
+                android:id="@+id/looping_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="Looping Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+
+
+
+            <TextView
+                android:id="@+id/list_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="List Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+            <TextView
+                android:id="@+id/string_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="String Programs"
+                android:textAlignment="center"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/dictionary_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="Dictionary Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+
+
+            <TextView
+                android:id="@+id/sorting_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="Searching and Sorting Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+            <TextView
+                android:id="@+id/pattern_programs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/codemenubtn"
+                android:padding="12dp"
+                android:textColor="#031F35"
+                android:text="Pattern Printing Programs"
+                android:textAlignment="center"
+                android:textSize="18dp"  />
+
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/l"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3774908939242242/5917946717">
+            </com.google.android.gms.ads.AdView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

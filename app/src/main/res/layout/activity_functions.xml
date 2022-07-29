@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D5EBFE"
+    tools:context="com.priyanka.pycode.Functions">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_functions"
+        android:layout_width="match_parent"
+        android:background="#008AFB"
+        app:titleTextColor="#fff"
+        app:title="Functions in Python"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/functions_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Function in Python"
+                />
+
+            <Button
+                android:id="@+id/creating_function_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Creating Function"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="3dp">
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+            <Button
+                android:id="@+id/types_of_function_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Types of Function"/>
+
+
+
+            <Button
+                android:id="@+id/anonymus_function_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Anonymous Function" />
+
+
+            <Button
+                android:id="@+id/global_local_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Global and Local Variable" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

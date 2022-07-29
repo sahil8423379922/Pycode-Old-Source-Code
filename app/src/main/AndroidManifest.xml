@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.priyanka.pycode">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.priyanka.pycode.intro_of_dictionary"></activity>
+        <activity android:name="com.priyanka.pycode.v9" />
+        <activity android:name="com.priyanka.pycode.v8" />
+        <activity android:name="com.priyanka.pycode.v7" />
+        <activity android:name="com.priyanka.pycode.v6" />
+        <activity android:name="com.priyanka.pycode.v5" />
+        <activity android:name="com.priyanka.pycode.v4" />
+        <activity android:name="com.priyanka.pycode.v3" />
+        <activity android:name="com.priyanka.pycode.v2" />
+        <activity android:name="com.priyanka.pycode.v1" />
+        <activity android:name="com.priyanka.pycode.patern_programs" />
+        <activity android:name="com.priyanka.pycode.sorting_programs" />
+        <activity android:name="com.priyanka.pycode.tuple_programs" />
+        <activity android:name="com.priyanka.pycode.dictionary_programs" />
+        <activity android:name="com.priyanka.pycode.string_programs" />
+        <activity android:name="com.priyanka.pycode.list_programs" />
+        <activity android:name="com.priyanka.pycode.looping_programs" />
+        <activity android:name="com.priyanka.pycode.condition_programs" />
+        <activity android:name="com.priyanka.pycode.basic_programs" />
+        <activity android:name="com.priyanka.pycode.loadprogram" />
+        <activity android:name="com.priyanka.pycode.moreprograms" />
+        <activity android:name="com.priyanka.pycode.showBookmark" />
+        <activity android:name="com.priyanka.pycode.Progress_report" />
+        <activity
+            android:name="com.priyanka.pycode.splash"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask">
+
+        </activity>
+        <activity android:name="com.priyanka.pycode.Result" />
+        <activity android:name="com.priyanka.pycode.Fundamental_play_quiz" />
+        <activity android:name="com.priyanka.pycode.operator_middle" />
+        <activity android:name="com.priyanka.pycode.tuple_middle" />
+        <activity android:name="com.priyanka.pycode.module_middle" />
+        <activity android:name="com.priyanka.pycode.exception_handiling_middle" />
+        <activity android:name="com.priyanka.pycode.input_output_middle" />
+        <activity android:name="com.priyanka.pycode.function_middle" />
+        <activity android:name="com.priyanka.pycode.dictionary_middle" />
+        <activity android:name="com.priyanka.pycode.list_middle" />
+        <activity android:name="com.priyanka.pycode.string_manupulation_middle" />
+        <activity android:name="com.priyanka.pycode.control_statement_middle" />
+        <activity android:name="com.priyanka.pycode.looping_middle" />
+        <activity android:name="com.priyanka.pycode.condition_middle" />
+        <activity android:name="com.priyanka.pycode.introduction_middle" />
+        <activity android:name="com.priyanka.pycode.fundamental_middle" />
+        <activity android:name="com.priyanka.pycode.Fundamental_download" />
+        <activity android:name="com.priyanka.pycode.list_function_and_methods" />
+        <activity android:name="com.priyanka.pycode.Video" />
+        <activity android:name="com.priyanka.pycode.CodeTerminal" /> <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3774908939242242~9043256787" /> <!-- android:value="ca-app-pub-3774908939242242~9043256787" -->
+        <activity android:name="com.priyanka.pycode.Merging" />
+        <activity android:name="com.priyanka.pycode.Appendingvalues" />
+        <activity android:name="com.priyanka.pycode.ExceptionClause" />
+        <activity android:name="com.priyanka.pycode.ExceptionHandling" />
+        <activity android:name="com.priyanka.pycode.Packages" />
+        <activity android:name="com.priyanka.pycode.RandomModule" />
+        <activity android:name="com.priyanka.pycode.Mathmodule" />
+        <activity android:name="com.priyanka.pycode.ImportingModule" />
+        <activity android:name="com.priyanka.pycode.ModulesinPython" />
+        <activity android:name="com.priyanka.pycode.FunctionsandMethods" />
+        <activity android:name="com.priyanka.pycode.RemovinganItem" />
+        <activity android:name="com.priyanka.pycode.GlobalandLocalVariable" />
+        <activity android:name="com.priyanka.pycode.AnonymousFunction" />
+        <activity android:name="com.priyanka.pycode.FunctionArguments" />
+        <activity android:name="com.priyanka.pycode.TypesofFunction" />
+        <activity android:name="com.priyanka.pycode.CallingFuction" />
+        <activity android:name="com.priyanka.pycode.CreatingFunction" />
+        <activity android:name="com.priyanka.pycode.Function_in_python" />
+        <activity android:name="com.priyanka.pycode.Traversing" />
+        <activity android:name="com.priyanka.pycode.DictionaryPython" />
+        <activity android:name="com.priyanka.pycode.FunctionsandMethodstuple" />
+        <activity android:name="com.priyanka.pycode.AcessingTuple" />
+        <activity android:name="com.priyanka.pycode.TupleinPython" />
+        <activity android:name="com.priyanka.pycode.FunctionandMethods" />
+        <activity android:name="com.priyanka.pycode.BasicOperation" />
+        <activity android:name="com.priyanka.pycode.Acessing_Element" />
+        <activity android:name="com.priyanka.pycode.Operation_on_List" />
+        <activity android:name="com.priyanka.pycode.Creating_a_List" />
+        <activity android:name="com.priyanka.pycode.Lists_in_Python" />
+        <activity android:name="com.priyanka.pycode.String_Slices" />
+        <activity android:name="com.priyanka.pycode.String_Operation" />
+        <activity android:name="com.priyanka.pycode.Intialising_String" />
+        <activity android:name="com.priyanka.pycode.String_in_python" />
+        <activity android:name="com.priyanka.pycode.Pass" />
+        <activity android:name="com.priyanka.pycode.Continue" />
+        <activity android:name="com.priyanka.pycode.Break" />
+        <activity android:name="com.priyanka.pycode.NestedLoop" />
+        <activity android:name="com.priyanka.pycode.ForLoop" />
+        <activity android:name="com.priyanka.pycode.whileLoop" />
+        <activity android:name="com.priyanka.pycode.Nested_condition" />
+        <activity android:name="com.priyanka.pycode.If_else_condition" />
+        <activity android:name="com.priyanka.pycode.If_condition" />
+        <activity android:name="com.priyanka.pycode.Output" />
+        <activity android:name="com.priyanka.pycode.Input" />
+        <activity android:name="com.priyanka.pycode.OtherOperator" />
+        <activity android:name="com.priyanka.pycode.BitwiseOperator" />
+        <activity android:name="com.priyanka.pycode.RelationalOperatoe" />
+        <activity android:name="com.priyanka.pycode.AssignmentOperator" />
+        <activity android:name="com.priyanka.pycode.AirthemeticOperator" />
+        <activity android:name="com.priyanka.pycode.Typeconversion" />
+        <activity android:name="com.priyanka.pycode.Indentation" />
+        <activity android:name="com.priyanka.pycode.Delimeters" />
+        <activity android:name="com.priyanka.pycode.Variable" />
+        <activity android:name="com.priyanka.pycode.Keywords" />
+        <activity android:name="com.priyanka.pycode.Datatype" />
+        <activity android:name="com.priyanka.pycode.Tokens" />
+        <activity android:name="com.priyanka.pycode.Algorithm" />
+        <activity android:name="com.priyanka.pycode.Installation_puthon" />
+        <activity android:name="com.priyanka.pycode.Interpreter" />
+        <activity android:name="com.priyanka.pycode.ProgrammingMethodoloy" />
+        <activity android:name="com.priyanka.pycode.software_concepts" />
+        <activity android:name="com.priyanka.pycode.introduction_to_python" />
+        <activity android:name="com.priyanka.pycode.Exception_handling" />
+        <activity android:name="com.priyanka.pycode.Modules" />
+        <activity android:name="com.priyanka.pycode.Functions" />
+        <activity android:name="com.priyanka.pycode.Dictionaries" />
+        <activity android:name="com.priyanka.pycode.Tuple" />
+        <activity android:name="com.priyanka.pycode.Lists" />
+        <activity android:name="com.priyanka.pycode.string_manipulation" />
+        <activity android:name="com.priyanka.pycode.control_statement" />
+        <activity android:name="com.priyanka.pycode.looping" />
+        <activity android:name="com.priyanka.pycode.conditions_in_python" />
+        <activity android:name="com.priyanka.pycode.output_in_python" />
+        <activity android:name="com.priyanka.pycode.input_in_python" />
+        <activity android:name="com.priyanka.pycode.introduction" />
+        <activity android:name="com.priyanka.pycode.flowchart" />
+        <activity android:name="com.priyanka.pycode.fundamental" />
+        <activity android:name="com.priyanka.pycode.startcourse" />
+        <activity
+            android:name="com.priyanka.pycode.taskscreen"
+            android:label="@string/Pycode"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name="com.priyanka.pycode.pythonHome" />
+        <activity android:name="com.priyanka.pycode.enterotp" />
+        <activity android:name="com.priyanka.pycode.MainActivity" />
+    </application>
+
+</manifest>

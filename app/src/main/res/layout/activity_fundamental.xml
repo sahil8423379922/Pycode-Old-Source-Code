@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D5EBFE"
+    tools:context="com.priyanka.pycode.fundamental">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_fundamental"
+        android:layout_width="match_parent"
+        android:background="#008AFB"
+        app:titleTextColor="#fff"
+        app:title="Fundamental in Python"
+        android:layout_height="wrap_content">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <Button
+        android:id="@+id/introduction_in_python_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:text="Introduction to Python"
+        />
+
+    <Button
+        android:id="@+id/software_concept_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:text="Software Concepts"
+        />
+
+
+
+
+
+    <Button
+        android:id="@+id/prgramming_mathod_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:text="Programming Methodology"
+        />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="3dp">
+
+            </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/interpreter_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:text="Interpreter"
+        />
+
+    <Button
+        android:id="@+id/installation_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:textAllCaps="false"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:background="@drawable/b"
+        android:gravity="center"
+        android:text="Installation of Python"
+        />
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

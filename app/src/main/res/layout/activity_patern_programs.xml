@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCE7F4"
+    android:orientation="vertical"
+    tools:context="com.priyanka.pycode.patern_programs">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/p1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Right to left Pyramid"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/p2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Simple Pyramid"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/p3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Triangle"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/p4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Numeric Pattern 1"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/p5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Numeric Pattern 2"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/p6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Numeric Pattern 3"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+
+            <TextView
+                android:id="@+id/p7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Alphabetic Pattern 1"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/p8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/program_background"
+                android:padding="10dp"
+                android:text="Alphabetic Pattern 2"
+                android:textAlignment="center"
+                android:textColor="#021E36"
+                android:textSize="22sp" />
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/l"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3774908939242242/5917946717"></com.google.android.gms.ads.AdView>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

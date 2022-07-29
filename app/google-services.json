@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721314789963",
+    "firebase_url": "https://pycode-ebbac.firebaseio.com",
+    "project_id": "pycode-ebbac",
+    "storage_bucket": "pycode-ebbac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721314789963:android:88688d486f07ca54566bce",
+        "android_client_info": {
+          "package_name": "com.priyanka.pycode"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721314789963-e65d4ebokq46h9ofqo7lnic59km1q1jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "android.priyanka.pycode",
+            "certificate_hash": "aa0081061d06b6f998590d25688a94b618c27d33"
+          }
+        },
+        {
+          "client_id": "721314789963-aq5du1js4q4ceqoo0bounsv3c7us2vro.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa6IKnACGuqWrqMWoQftvHkrQJ8qMjJJQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721314789963-aq5du1js4q4ceqoo0bounsv3c7us2vro.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

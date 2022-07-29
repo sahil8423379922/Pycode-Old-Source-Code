@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D5EBFE"
+    android:orientation="vertical"
+    tools:context="com.priyanka.pycode.input_in_python">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_operator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008AFB"
+        app:title="Operator in Python"
+        app:titleTextColor="#fff">
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/arithmetic_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Airthemetic Operator"/>
+
+            <Button
+                android:id="@+id/assignment_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Assignment operstor" />
+
+            <Button
+                android:id="@+id/relational_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Relational Operator" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:elevation="3dp">
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <Button
+                android:id="@+id/bitwise_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Logical operator" />
+
+            <Button
+                android:id="@+id/other_operator_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/b"
+                android:focusable="true"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:textAllCaps="false"
+                android:text="Other Operator" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
